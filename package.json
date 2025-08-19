@@ -1,0 +1,22 @@
+{
+  "name": "dataplatform-ui",
+  "version": "1.0.0",
+  "description": "Streaming data portal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@kafkajs/confluent-schema-registry": "^3.9.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4"
+  }
+}
